@@ -515,6 +515,7 @@ section{
     text-align: right;
     letter-spacing: 0.15px;
     color: #2BD0D0;
+    cursor: pointer;
 }
 
 .link .copy__btn{
