@@ -20,7 +20,7 @@
     height: 200px;
     margin: 0 auto;
     text-align: center;
-    background-color: var(--blue);
+    background-color: #2BD0D0;
     color: var(--black);
     padding: 1rem 0 3rem 0;
 }
@@ -36,11 +36,9 @@
     width: 100%;
 }
 
-
-
 .input__container{
     z-index: 9;
-    background-color: var(--yellow);
+    background-color: #ff0;
     margin: 15px auto;
     max-width: 800px;
     height: 70px;
@@ -57,7 +55,7 @@
     border-radius: 5px;
     outline: none;
     padding-left: 1rem;
-    color: var(--black);
+    color: #000;
     font-size: 16px;
 }
 
@@ -65,7 +63,7 @@
     height: 35px;
     width: 80%;
     margin: auto;
-    background-color: var(--red);
+    background-color: #f00;
     color: white;
     border-radius: 5px;
     outline: none;
@@ -75,7 +73,7 @@
 }
 
 .error__msg{
-    background-color: var(--red);
+    background-color: #f00;
     max-width: 300px;
     position: fixed;
     top: 196px;
@@ -107,7 +105,7 @@
 }
 
 .links__container .link{
-    border: var(--yellow) 1px solid;
+    border: #ff0 1px solid;
     margin: 0.5rem 0;
     padding: 0.5rem;
     display: grid;
@@ -125,7 +123,7 @@
 }
 
 .link .copy__btn{
-    background-color: var(--blue);
+    background-color: #2BD0D0;
     padding: 3px 0;
     width: 60px;
     border: none;
@@ -257,7 +255,6 @@ header
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
-
 }
 .action-btn
 {
@@ -762,6 +759,10 @@ section{
         font-size: 13px;
         line-height: 25px;
     }
+    .link .copy__btn
+    {
+        display: none;
+    }
     .col
     {
         width: 100%;
@@ -913,16 +914,11 @@ section{
     {
         font-size: 12px;
     }
-    .link .copy__btn
-    {
-        display: none;
-    }
+    
     .title-step
     {
         font-size: 30px;
     }
-    
-    
 }
 @media (max-width: 450px)
 {
@@ -933,7 +929,7 @@ section{
    {
         font-size: 20px;
    }
-   .step-container .step p
+    .step-container .step p
     {
         font-size: 13px;
     }
